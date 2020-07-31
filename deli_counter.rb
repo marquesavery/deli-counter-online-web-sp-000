@@ -2,7 +2,7 @@
 def line(katz_deli)
   line = []
   katz_deli.each_with_index do |queue, index|
-    index += 1
+    index = index.to_i + 1
     line << "#{index}. #{queue}"
   end
   line2 = line.join(" ")
