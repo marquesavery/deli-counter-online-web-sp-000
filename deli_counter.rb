@@ -9,6 +9,6 @@ def line(katz_deli)
       line << "#{index}. #{queue}"
     end
     line2 = line.join(" ")
-    puts "The line is currently" + line2
+    puts "The line is currently: " + line2
   end
 end
