@@ -15,7 +15,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, customer)
-  binding.pry
+#  binding.pry
   katz_deli << customer
 #  order = katz_deli.length
   puts "Welcome, #{customer}. You are number #{katz_deli.length} in line"
