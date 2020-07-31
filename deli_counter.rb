@@ -15,6 +15,6 @@ end
 
 def take_a_number(katz_deli, customer)
   katz_deli << customer
-  index = katz_deli.lenght
+  index = katz_deli.length
   puts "Welcome, #{customer}. You are number #{} in line"
 end
