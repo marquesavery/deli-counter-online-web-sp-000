@@ -20,3 +20,8 @@ def take_a_number(katz_deli, customer)
 #  order = katz_deli.length
   puts "Welcome, #{customer}. You are number #{katz_deli.length} in line."
 end
+
+def now_serving(katz_deli)
+  serve = katz_deli.shift
+  puts "Currently serving #{serve}."
+end
