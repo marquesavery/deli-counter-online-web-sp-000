@@ -1,6 +1,7 @@
 # Write your code here.
 def line(katz_deli)
   line = []
+  if katz_deli == []
   katz_deli.each_with_index do |queue, index|
     index = index.to_i + 1
     line << "#{index}. #{queue}"
