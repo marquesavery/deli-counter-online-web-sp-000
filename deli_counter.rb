@@ -2,10 +2,13 @@
 def line(katz_deli)
   line = []
   if katz_deli == []
-  katz_deli.each_with_index do |queue, index|
-    index = index.to_i + 1
-    line << "#{index}. #{queue}"
+    puts "The line is empty."
+  else
+    katz_deli.each_with_index do |queue, index|
+      index = index.to_i + 1
+      line << "#{index}. #{queue}"
+    end
+    line2 = line.join(" ")
+    return "The line is currently" + line2
   end
-  line2 = line.join(" ")
-  return "The line is currently" + line2
 end
