@@ -6,3 +6,4 @@ def line(katz_deli)
     line << "#{index}. #{queue}"
   end
   return "The line is currently #{line.join(" ")}"
+end
